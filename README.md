@@ -20,7 +20,7 @@ source .venv/bin/activate
 
 -Install Dependencies and Freeze Requirements
 ```python
-python3 -m pip install pandas pyarrow
+python3 -m pip install jupyterlab numpy pandas pyarrow matplotlib seaborn scipy
 python3 -m pip freeze > requirements.txt
 ```
 
