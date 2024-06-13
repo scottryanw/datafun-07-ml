@@ -20,7 +20,11 @@ source .venv/bin/activate
 
 -Install Dependencies and Freeze Requirements
 ```python
+python3 -m pip install --upgrade pip build setuptools wheel 
+python3 -m pip install --upgrade ipykernel jupyterlab
 python3 -m pip install jupyterlab numpy pandas pyarrow matplotlib seaborn scipy
+python3 -m pip install pymongo pyspark tensorflow wordcloud scikit-learn
+
 python3 -m pip freeze > requirements.txt
 ```
 
